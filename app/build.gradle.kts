@@ -48,7 +48,11 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    //implementation("com.squareup.retrofit2:converter-gson:2.11.0")
     implementation("com.squareup.moshi:moshi:1.15.2")
-    //kapt("com.squareup.moshi:moshi-kotlin-codegen:2.11.0")
+    implementation ("com.squareup.retrofit2:converter-moshi:2.9.0")
+
+    implementation ("androidx.compose.ui:ui:1.8.0-alpha08")
+    implementation ("androidx.compose.material:material:1.8.0-alpha08")
+    implementation ("androidx.compose.ui:ui-tooling-preview:1.8.0-alpha08")
+    implementation ("androidx.hilt:hilt-navigation-compose:1.0.0")
 }
